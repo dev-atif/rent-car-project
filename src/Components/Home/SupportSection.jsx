@@ -3,7 +3,8 @@ import { TbMessageChatbot } from "react-icons/tb";
 import { IoWalletOutline } from "react-icons/io5";
 import { MdFreeCancellation } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
-
+import Image from "next/image";
+import support from "../../../public/supportcar.png";
 const SupportSection = () => {
   return (
     <div className="bg-[#0D274E] relative w-full py-10 mt-20">
