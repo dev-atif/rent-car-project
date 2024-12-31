@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { TbMessageChatbot } from "react-icons/tb";
 import { IoWalletOutline } from "react-icons/io5";
@@ -5,9 +6,11 @@ import { MdFreeCancellation } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
 import Image from "next/image";
 import support from "../../../public/supportcar.png";
+import { usePathname } from "next/navigation";
 const SupportSection = () => {
+  const pathname = usePathname();
   return (
-    <div className="bg-[#0D274E] relative w-full py-10 mt-20">
+    <div className={`bg-[#0D274E] relative w-full py-10 mt-20 `}>
       <div className="flex flex-col md:flex-row  h-full max-w-7xl mx-auto">
         <div className="p-6 w-full">
           <div>

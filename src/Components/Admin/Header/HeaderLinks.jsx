@@ -7,23 +7,20 @@ const NavLinks = [
     Link: "/",
   },
   {
-    name: "Drivers",
-    Link: "/drivers",
+    name: "Add Drivers",
+    Link: "/adddriver",
   },
+
   {
-    name: "Car",
-    Link: "/car",
-  },
-  {
-    name: "Contact",
+    name: "All Cars",
     Link: "#",
   },
   {
-    name: "Services",
+    name: "All Drivers",
     Link: "#",
   },
 ];
-const MenuLinks = () => {
+const HeaderLinks = () => {
   const pathname = usePathname();
 
   return (
@@ -46,4 +43,4 @@ const MenuLinks = () => {
   );
 };
 
-export default MenuLinks;
+export default HeaderLinks;
